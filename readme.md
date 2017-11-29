@@ -1,11 +1,51 @@
-#INSTALLATION
+## Getting Started
 
-cd /path/to/next
-npm install **this will install all node modules specified in the package.json file**
+### Prerequisites
 
-npm run dev **project will run on http://localhost:3000/**
+```
+You need to have node.js and npm installed.
+```
 
-#This is a startup structure, and it includes :
-  **next.js**
-  **apollo**
-  **configs for sass and css**
+### Installed stack
+```
+Next.js
+Apollo
+Configs for Sass and Css
+```
+
+### Installation
+
+Install all node modules specified in the package.json file.
+```
+cd /path/to/project_root
+npm install
+```
+Run project on http://localhost:3000/
+```
+npm run dev
+```
+
+## Using sass
+Sass file is located at project_root/styles/index.scss .
+```
+In the component files, you need to import the sass file : import const_name from 'styles/index.scss'.
+In  order to apply your styles to the component, you need to insert '<style dangerouslySetInnerHTML={{ __html: style }} />' after the highest order component.
+Ex :
+import style from 'styles/index.scss'
+
+export default () => (
+  <div>
+    <style dangerouslySetInnerHTML={{ __html: style }} />
+    <h1>Hello World</h1>
+  </div>
+)
+```
+```
+You can assign variables with values for code reusability.
+Ex :
+$color : red
+
+.class {
+  color : $color;
+}
+```
