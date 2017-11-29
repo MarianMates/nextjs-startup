@@ -1,0 +1,35 @@
+{
+  "name": "sixtine-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client-preset": "^1.0.3",
+    "apollo-link": "^1.0.3",
+    "autoprefixer": "7.1.5",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "next": "^4.1.4",
+    "next-apollo": "^1.0.4",
+    "node-sass": "^4.4.0",
+    "normalize.css": "^7.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.7",
+    "raw-loader": "^0.5.1",
+    "react": "^16.1.1",
+    "react-apollo": "^2.0.1",
+    "react-dom": "^16.1.1",
+    "sass-loader": "^6.0.6"
+  }
+}

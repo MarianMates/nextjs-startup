@@ -1,0 +1,11 @@
+@import 'normalize.css';
+
+//example
+$variable: value;
+
+.title{
+  color: red;
+  span{
+    color: blue;
+  }
+}
