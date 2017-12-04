@@ -11,5 +11,9 @@ export default () => (
       Alert
     </Alert>
     <Button className='button-dng' color='danger'>Danger</Button>
+    <div className='row'>
+      <div className="col-md-6">A</div>
+      <div className="col-md-6">B</div>
+    </div>
   </Layout>
 )

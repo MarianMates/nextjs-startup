@@ -49,3 +49,26 @@ $color : red
   color : $color;
 }
 ```
+
+## Using reactstrap & bootstrap
+This project uses reactstrap, a version of bootstrap4 made for react.
+I have made a component named Layout, which needs to be used as the highest order component on pages in order to implement reactstrap & bootstrap.
+
+### Reactstrap
+To use a reactstrap component, import it from 'reactstrap' and insert it in the code as shown below.
+```
+import Layout from 'components/layout/layout'
+import { Component } from 'reactstrap'
+
+export default () => (
+  <Layout>
+    <Component>
+      Content
+    </Component>
+  </Layout>
+)
+```
+All available reactstrap components can be found at https://reactstrap.github.io/components.
+
+### Bootstrap
+Bootstrap components can be used per documentation.
