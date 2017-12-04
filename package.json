@@ -30,6 +30,7 @@
     "react": "^16.1.1",
     "react-apollo": "^2.0.1",
     "react-dom": "^16.1.1",
+    "reactstrap": "^5.0.0-alpha.4",
     "sass-loader": "^6.0.6"
   }
 }
